@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Exam</string>
+    <string name="buttonText">ارزیابی</string>
+    <string name="quest1">چند عدد اول زوج وجود دارد؟</string>
+    <string name="quest2">پایتخت کشور برزیل کدام است؟</string>
+    <string name="txtButtonBack">سوال قبل</string>
+    <string name="txtNextButton">سوال بعدی</string>
+</resources>
