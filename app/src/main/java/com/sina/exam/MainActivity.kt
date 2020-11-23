@@ -19,7 +19,15 @@ class MainActivity : AppCompatActivity() {
             getString(R.string.quest2),
             arrayListOf("بوینس آیرس", "ساعوپاعولو", "میامی", "ریو دجنیرو"), 3
         )
-        listOfTests= mutableListOf(test1,test2)
+        val test3 = Test(
+            getString(R.string.quest3),
+            arrayListOf("برلین", "کلن", "مونیخ", "رم"), 0
+        )
+        val test4 = Test(
+            getString(R.string.quest4),
+            arrayListOf("سنت پترزبورگ", "رم", "پراگ", "مادرید"), 3
+        )
+        listOfTests= mutableListOf(test1,test2,test3,test4)
 
         setQuestion(curTest)
 
